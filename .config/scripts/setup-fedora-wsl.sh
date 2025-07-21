@@ -41,9 +41,9 @@ echo "installing tmux package manager and plugins"
 git clone https://github.com/tmux-plugins/tpm ~/.config/tmux/plugins/tpm
 ~/.config/tmux/plugins/tpm/bin/install_plugins
 
-# Installing Misc
-echo "installing misc tools"
-pnpm install -g neovim
+# Installing kubectl
+curl -L "https://dl.k8s.io/release/$(curl -L -s https://dl.k8s.io/release/stable.txt)/bin/linux/amd64/kubectl" -o /tmp/kubectl
+sudo install -Dm755 /tmp/kubectl /usr/local/bin/kubectl
 
 # Shell config
 echo "setting up zsh as default"
