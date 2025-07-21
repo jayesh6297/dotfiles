@@ -4,7 +4,7 @@ sudo dnf update -y
 sudo dnf install -y \
 	git curl nodejs lua luajit \
 	git-delta fzf ImageMagick \
-	vim neovim less xsel \
+	vim neovim less xsel helm \
 	zsh tmux htop pnpm lsd cargo \
 	tree unzip zip gcc make fd ripgrep tree-sitter
 
