@@ -9,7 +9,7 @@ sudo dnf install -y \
 	tree unzip zip gcc make fd \
 	ripgrep tree-sitter containerd \
 	docker-buildx docker-cli docker-compose \
-	docker-compose-switch moby-engine
+	docker-compose-switch moby-engine pigz
 
 # Dotfiles
 echo "setting up dotfiles"
