@@ -6,7 +6,10 @@ sudo dnf install -y \
 	git-delta fzf ImageMagick \
 	vim neovim less xsel helm \
 	zsh tmux htop pnpm lsd cargo \
-	tree unzip zip gcc make fd ripgrep tree-sitter
+	tree unzip zip gcc make fd \
+	ripgrep tree-sitter containerd \
+	docker-buildx docker-cli docker-compose \
+	docker-compose-switch moby-engine
 
 # Dotfiles
 echo "setting up dotfiles"
